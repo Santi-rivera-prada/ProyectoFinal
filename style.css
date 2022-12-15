@@ -1,0 +1,45 @@
+*{
+    font-family: cursive;
+    color: black;
+}
+
+*{
+    background-color: aliceblue;
+}
+
+
+header{
+    display: grid;
+    grid-template-columns: repeat(auto,30%)
+    
+}
+
+
+input{
+    color: blue;
+    width: 300px;
+    height: 10%;
+    margin-top: 20%;
+    border: 0.5px solid;
+    border-radius: 20px;
+    background-color: rgb(247, 248, 249);
+    
+    
+}
+
+
+.imagenes img{
+    width: 230px;
+    /*height: 200px;
+    object-fit: cover;*/
+    margin-bottom: 40px;
+    border-radius: 15px;
+    cursor: zoom-in;
+    bottom: unset;
+    background-color: rgb(239, 228, 228);
+}
+
+.imagenes :hover{
+    filter: opacity(0.7);    
+    
+}
