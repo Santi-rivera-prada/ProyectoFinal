@@ -1,39 +1,128 @@
 *{
     font-family: cursive;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 *{
     background-color: aliceblue;
 }
 
-
 header{
-    display: grid;
-    grid-template-columns: repeat(auto,30%)
-    
+    display: inline-block;   
 }
-
 
 input{
-    color: blue;
-    width: 300px;
-    height: 10%;
-    margin-top: 20%;
+    background-color: rgb(205, 207, 211);
+    width: 880px;
+    max-width: auto;
+    height: 45px;
+    margin-top: 5%;
     border: 0.5px solid;
-    border-radius: 20px;
-    background-color: rgb(247, 248, 249);
-    
-    
+    border-radius: 30px;
+    margin: 10px;
+    font-family: cursive;
+}
+
+.grid-button-A{
+    display: inline-block;
+    margin: 10px;
+}
+
+.grid-button-A img{
+    display: inline-block;
+    cursor: pointer;
+    width: 60px;
+    height: 60px; 
+    border-radius: 30px;   
+}
+
+.grid-button-A form{
+    display: inline-block;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 300px;
+    border-color: rgb(0, 136, 255);
+    margin: 1px;
+}
+
+.grid-button-A form button {
+    display: inline-block;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border-color: rgb(0, 136, 255);
+    margin: 1px;
 }
 
 
+
+.grid-button-A :hover{
+    filter:contrast(0.7)
+}
+
+.grid-input{
+    display: inline-block;
+}
+
+.grid-input input{
+    display: inline-block;
+}
+
+.grid-button-B{
+    display: inline-block;
+}
+
+.grid-button-B form{
+    display: inline-block;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 300px;
+    border-color: rgb(22, 115, 196);
+    margin: 1px;
+}
+
+.grid-button-B form button{
+    display: inline-block;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border-color: rgb(22, 115, 196);
+    margin: 1px;
+}
+
+.grid-button-B button{
+    display: inline-block;
+    cursor: pointer;
+    width: 40px;
+    height: 60px;
+    border-radius: 30px;
+    border-color: rgb(24, 119, 207);
+    margin: 1px;
+}
+
+.grid-button-B :hover{
+    filter:contrast(0.7)
+}
+
+.imagenes{
+    display: grid;
+    gap: 10px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    grid-template-columns: repeat(auto-fill, 220px);
+    justify-content: center;
+}
+
 .imagenes img{
-    width: 230px;
-    /*height: 200px;
-    object-fit: cover;*/
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
     margin-bottom: 40px;
-    border-radius: 15px;
+    border-radius: 20px;
     cursor: zoom-in;
     bottom: unset;
     background-color: rgb(239, 228, 228);
@@ -41,5 +130,4 @@ input{
 
 .imagenes :hover{
     filter: opacity(0.7);    
-    
 }
